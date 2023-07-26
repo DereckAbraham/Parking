@@ -6,6 +6,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .caja_img{
@@ -17,6 +18,7 @@
     justify-content: space-around;
     border: 1px solid black;
     border-radius: 10px;
+    background-color: rgb(253, 230, 101);
 }
 
 .item{
@@ -30,4 +32,46 @@
     justify-content: center;
     border: 1px solid black;
     border-radius: 10px;
+
+    background-color: rgb(252, 241, 180);
+}
+
+.ingresar{
+    width: 40%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    margin: 5rem;
+
+
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(253, 230, 101);
+}
+
+.ingresar button{
+    
+    width: 85%;
+    height: 100%;
+    border:rgb(252, 241, 180);
+    background-color: rgb(252, 241, 180);
+}
+
+/*TABLET*/
+
+@media screen and (max-width:720px){
+    .contenido{
+        width: 100%;
+        height: 100%;
+    }
+
+    .ingresar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
 }

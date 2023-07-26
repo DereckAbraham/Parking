@@ -23,11 +23,13 @@ let contenido = `
             <span>🛺</span>
         </div>
     </div>
-    <form>
-        <input type="texto" class="placa">
-        <input type="time" class="tiempo_entrada">
-        <button>Ingresar</button>
-    </form>
+    <div class="ingresar">
+        <form>
+            <input type="texto" class="placa">
+            <input type="time" class="tiempo_entrada">
+            <button>Ingresar</button>
+            </form>
+    </div>
 
 `;
 
