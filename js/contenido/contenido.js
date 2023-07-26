@@ -1,6 +1,7 @@
 let contenido_DOM = document.querySelector(".contenido");
 
 let contenido = `
+    <div class="pantalla">
     <div class="caja_img">
         <div class="item">
             <h3>Bus y Transporte Pesado</h3>
@@ -29,6 +30,8 @@ let contenido = `
             <input type="time" class="tiempo_entrada">
             <button>Ingresar</button>
             </form>
+    </div>
+
     </div>
 
 `;
